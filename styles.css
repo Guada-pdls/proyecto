@@ -3,8 +3,13 @@ body {
     position: relative;
 }
 
+picture {
+    display: flex;
+    justify-content: center;
+}
+
 .image{
-    border: 5px solid green;
+    border: 6px solid #fc3d21;
     border-radius: 10px;
     height: 400px;
 }
@@ -43,7 +48,7 @@ video {
 
 h1{
     font-size: 60px;
-    color: hwb(0 100% 0% / 0.998);
+    color: #0b3d91;
     padding: 20px;
     border-radius: 10px;
     width: fit-content;
@@ -54,7 +59,7 @@ h1{
 
 h2{
     font-size: 60px;
-    color: hwb(0 100% 0% / 0.998);
+    color: #0b3d91;
     padding: 20px;
     border-radius: 10px;
     width: fit-content;
