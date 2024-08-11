@@ -17,6 +17,12 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.link-button:hover {
+    background-color: #f48fb1; 
+    box-shadow: 2px 4px #666666;
 }
 
 
@@ -59,13 +65,11 @@ h2{
 
 p{
     font-size: 40px;
-color: hwb(0 100% 0% / 0.998);
+    color: hwb(0 100% 0% / 0.998);
     padding: 10px;
     border-radius: 10px;
     width: fit-content;
     margin: 0 auto;
     text-align: center;
     display: flex;
-
-
 }
