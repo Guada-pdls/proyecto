@@ -12,8 +12,14 @@ body {
     text-decoration: none;
     color: black;
     border: 1px solid gray;
-    background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 3px #888888;
+    background-color: #f8c6d0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 2px 4px #888888;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.link-button:hover {
+    background-color: #f48fb1; 
+    box-shadow: 2px 4px #666666;
 }
